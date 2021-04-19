@@ -30,7 +30,7 @@ outputs = EfficientNetB0(include_top=True, weights=None, classes=NUM_CLASSES)(in
 
 На графиках наблюдается практически полное отстутсвие обучаемости сети. На 3-4 эпохах наблюдается самая высокая точность (~30%), после чего она только убывает, что свидетельствует о том, что сеть не работает в случае со случайным приближением.
 
-## С использованием и техники обучения Transfer Learning обучить нейроннуюсеть EfficientNet-B0 (предобученную на базе изображений imagenet) для решениязадачи классификации изображений Food-101
+## С использованием и техники обучения Transfer Learning обучить нейроннуюсеть EfficientNet-B0 (предобученную на базе изображений imagenet) для решения задачи классификации изображений Food-101
 
 https://tensorboard.dev/experiment/RBbdEdc9RimxIzkZrk0Jqw/#scalars   
 #### epoch_categorical_accuracy
